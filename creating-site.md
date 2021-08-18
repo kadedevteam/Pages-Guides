@@ -34,7 +34,7 @@ Pages Pro will use the Jekyll Engine for Obviouse Reasons! Check out the Jekyll 
 ```
 Note: You must make sure that No Github Pages brance-or site on the repostory. If using a exsitsing one!
 ```
-## Creating a Repostiry for Pages! ([Skip]())
+## Creating a Repostiry for Pages! ([Skip](#setting-up-site))
 
 If your site is an independent project, you can create a new repository to store your site's source code. If your site is associated with an existing project, you can add the source code to that project's repository, in a `/docs` folder on the default branch or on a different branch. For example, if you're creating a site to publish documentation for a project that's already on GitHub, you may want to store the source code for the site in the same repository as the project.
 

@@ -30,4 +30,41 @@ Pages Pro will use the Jekyll Engine for Obviouse Reasons! Check out the Jekyll 
 
 ## Creating a Site!
 
+### You Can Create A Site Using a New Repostiry OR An Exsiting One!
+```
+Note: You must make sure that No Github Pages brance-or site on the repostory. If using a exsitsing one!
+```
+## Creating a Repostiry for Pages! ([Skip]())
 
+If your site is an independent project, you can create a new repository to store your site's source code. If your site is associated with an existing project, you can add the source code to that project's repository, in a `/docs` folder on the default branch or on a different branch. For example, if you're creating a site to publish documentation for a project that's already on GitHub, you may want to store the source code for the site in the same repository as the project.
+
+If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.
+
+1. In the upper-right corner of any page, use the  drop-down menu, and select **New repository.**
+
+![image](https://user-images.githubusercontent.com/84461200/129962456-59be5bb4-2754-4ff2-b47a-60a223023a3e.png)
+
+2. Use the **Owner** drop-down menu, and select the account you want to own the repository.
+
+![image](https://user-images.githubusercontent.com/84461200/129962538-eeeaf2b9-0a0f-45ae-8bc1-699d17f7d3a4.png)
+
+3. Type a name for your repository and an optional description. If you're creating a user or organization site, your repository must be named <user>.github.io or <organization>.github.io. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see [About GitHub Pages](https://github.com/kadedevteam/Pages-Guides/blob/gh-pages/creating-site.md#about-github-pages-pro)
+
+![image](https://user-images.githubusercontent.com/84461200/129962902-4d185883-a33f-4924-a7cc-94daaed53a71.png)
+
+4. Choose a repository visibility.
+  
+![image](https://user-images.githubusercontent.com/84461200/129962974-3eb23da6-99a8-44dc-8981-3eb041f5dff4.png)
+
+5. Select Initialize this repository with a README.
+  
+![image](https://user-images.githubusercontent.com/84461200/129963013-2614ba20-db05-49d8-ab59-b4455403a889.png)
+
+6. Click Create repository.
+
+![image](https://user-images.githubusercontent.com/84461200/129963096-8521abdf-c6ab-4a29-b965-a1063e2c72cb.png)
+
+
+## Setting up site
+
+### Next Step

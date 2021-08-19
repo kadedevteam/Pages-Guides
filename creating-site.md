@@ -1,4 +1,4 @@
-## Creating a website with Github Pages Pro
+# Creating a website with Github Pages Pro
 
 ## About GitHub Pages Pro
 
@@ -67,4 +67,13 @@ If the account that owns the repository uses GitHub Free or GitHub Free for orga
 
 ## Setting up site
 
+- On GitHub, navigate to your site's repository.
+- Make sure you have no gh-pages branches! or github pages enabled at all
+- Now go to **Settings**
+- While in settings scroll down to **Pages** and then create a branch and name it `gh-pro`
+- Then Follow [Setting Up Github Pages Pro](https://kadedevteam.github.io/GithubPagesPro/SettingUpPagesPro) Guide 
+- And Your Done!
+
 ### Next Step
+
+**Check out the [Doccumentation Page](https://kadedevteam.github.io/Documentations/) for more guides**

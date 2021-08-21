@@ -57,9 +57,12 @@ Now Go to Line 120, and scroll down until you see the `class` statement with the
 	}
 ```
 
-In `<positions>` replace it with the position where your subModule is going to be! to add a z cord just do `z.pos(new) = <positions>` and in data script is where you write all the scripts for the subModule.
+In `<positions>` replace it with the position where your subModule is going to be! to add a z cord just do `z.pos(new) = <positions>` and in data script is where you write all the scripts for the subModule. To Begin First Make a new line in `dataScript` like this `newStringType = textDisplay("<text>")` Then Underneath write `string.linkUrl('<url>')` now build your site and your done!
 
-We Have A Full Guide On How dataScript(s) work for each class! in this guide we will go over TTType! but here is the guides!
+If You want to change your Link Url Color for the subModule just do `linkCrl = new('#(<colorCodeName>)')`. You can use this [link]() to find color codes!
+
+We Have A Full Guide On How dataScript(s) work for each class! in this guide we will go over TTType! but here are the guides!
 - [TWar]()
 - [Snd]()
-- [SndTV]()
+
+### More Docementations on the [Homepage](https://kadedevteam.github.io/Documentations/)

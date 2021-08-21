@@ -14,7 +14,52 @@ Now go to `assets/preload/data` and create a `gitmodule` file, Ex:  `tagname.git
 
 ### Adding SubStates
 
-Choose what kind of Substate you want to add and put it on the list at `Line 17` Make Sute to write it like this: (PS: MAKE SURE THE NAME IS THE SAME AS THE `.gitmodule` FILE YOU CREATED EARLIER)`var <name> = <type of substate>`  
+Choose what kind of Substate you want to add and put it on the list at `Line 17` Make Sute to write it like this: (PS: MAKE SURE THE NAME IS THE SAME AS THE `.gitmodule` FILE YOU CREATED EARLIER) `var <name> = <type of substate>;`  
+```
+@:publicFields
+class TweenV {
+	static var GUID = 0;
+	var uid 		= 0;
+	
+	var tagname = TType;
 ```
 
+Now On Line 32 You have to list the `gitmodule` file. Like This:
 ```
+	public inline function new (
+		parent:Snd	 ,
+	    n:Float		 ,
+	    ln:Float	 ,
+		varType:TVVar,
+	    speed:Float	 ,
+	    from:Float	 ,
+	    to:Float	 ,
+	    type:h2d.Tweenie.TType ,
+	    plays		 ,
+	    onUpdate	 ,
+	    onEnd		 
+	) {
+		this.tagname = gitmodule;
+	}
+```
+
+Now Go to Line 120, and scroll down until you see the `class` statement with the submodule you created! Now Add a new like this:
+```
+	public function() {
+		gitmodule=data;
+
+		x.pos = <position>
+		y.pos = <position>
+
+		new dataScript() {
+			
+		}
+	}
+```
+
+In `<positions>` replace it with the position where your subModule is going to be! to add a z cord just do `z.pos(new) = <positions>` and in data script is where you write all the scripts for the subModule.
+
+We Have A Full Guide On How dataScript(s) work for each class! in this guide we will go over TTType! but here is the guides!
+- [TWar]()
+- [Snd]()
+- [SndTV]()

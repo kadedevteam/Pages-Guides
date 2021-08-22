@@ -4,7 +4,7 @@ Go To `assets/` and you should find files known as `tab1`, `tab2` and so on. The
 
 ### Adding Custom URL Sparks
 
-Create a config.yml file inside of the tab file and write `link: {{ site.url }}/<nameOfUrl>/`!
+Create a config.yml file inside of the tab file and write `link: {{ siteUrl }}<nameOfUrl>/`!
 
 **NOTE**: You can add more pages to your site by creating more new files. Each file will be available on your site in the same directory structure as your publishing source. For example, if the publishing source for your project site is the gh-pages branch, and you create a new file called `/about/contact-us.md` in the tab file branch, the file will be available at `https://<user>.github.io/<repository>/about/contact-us.html.`
 
